@@ -1,0 +1,160 @@
+@charset "Utf-8";
+
+/*
+****** limpar formatação padrão
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS" , Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+*********   layout
+*/
+
+#area-cabecalho{
+    background-color: #cee0f8;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo , #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+#area-lateral {
+    background-color: #ff9000;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 11px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.conteudo-lateral {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border: 1px dotted #ccc;
+}
+
+#rodape {
+    background-color: greenyellow;
+    clear: both;
+    padding: 15px;
+    text-align: center;
+}
+
+/*
+*********  Formatação-menu
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link , a:visited {
+    color: #00583d;
+}
+
+a:hover {
+    color: #1b6c80;
+    text-decoration: underline;
+}
+
+.link-postagem:nth-of-type(n) {
+    color: #0045ff;
+}
+
+.link-postagem:nth-of-type(n):hover {
+    color: #ff7600;
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link , #area-cabecalho a:visited {
+    color: #a01957;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #85d0e2;
+    background-color: #000;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+/*
+******* formatação-geral
+*/
+
+h1 {
+   color: #beaf00;
+   font-size: 2.5em;
+}
+
+.branco {
+    color: #037e74;
+}
+
+h1 , .class {
+    text-shadow: 3px 2px #fff;
+}
+
+h2 {
+    color: #006bfa;
+}
+
+h3 {
+    color: #740f0f;
+    background-color: #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    font-weight: bold;
+    border-bottom: 2px dashed red;
+    padding-bottom: px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-width: 2px;
+}
+
+hr {
+    width: 300px;
+    margin: 0 auto; 
+}
+
+.linha-postagem-lateral {
+    width: 100px;
+}
